@@ -40,10 +40,10 @@ selector.addEventListener("change", () =>{
             <div class="test-inner ">
                 <div class="test-author-thumb d-flex">
                     <div class="test-author-info">
-                        <h4>${optionLabel.textContent}</h4>                                            
+                        <h4>${opcionL.textContent}</h4>                                            
                     </div>
                 </div>
-                <span>${fraseAutor}</span>
+                <span>${fAutor}</span>
                 <i class="fa fa-quote-right"></i>
             </div>
         </div>
