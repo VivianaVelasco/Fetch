@@ -32,7 +32,7 @@ selector.addEventListener("change", () =>{
         let contener= document.querySelector("#frases")
         contener.innerHTML=""
         for(let frase of data.frases){
-            if(Number(frase.id_autor)==Number(selector.value)){
+            if (Number(frase.id_autor) === Number(selector.value)) {
                 let fAutor=frase.texto
                 let opcionL=selector.options[selector.selectedIndex]
                 let temp= `
